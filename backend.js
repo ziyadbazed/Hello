@@ -13,5 +13,7 @@ app.message(function(client, action, param) {
             console.log('Old Data:');
             console.dir(oldData);
         });
+        
+        client.msg('hasil', {pesan: 'Simpan data Sukses'});
     }
 });

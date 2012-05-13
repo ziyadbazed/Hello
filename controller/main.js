@@ -52,5 +52,13 @@ _.extend(exports, {
             app.msg('kirimText', {key: self.get('key').value(), text: self.get('text').value()});
         });
         
+        
+        app.on('message', function(action, parameter) {
+            if (action === 'hasil') {
+                console.log('data dari backend: ');
+                console.dir(parameter);
+            }
+        });
+        
 	}
 });
