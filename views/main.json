@@ -1,0 +1,49 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "title",
+			"control": "TextView",
+			"label": "Hallo",
+			"style": {
+				"color": "black",
+				"width": "fill-parent",
+				"height": "fill-parent",
+				"align": "center",
+				"valign": "middle"
+			}
+		},
+        {
+            "name": "key",
+            "control": "InputBox",
+            "style": {
+                "color": "blue",
+                "background-color": "#abc123",
+                "width": "fill-parent",
+                "height": 15
+            }
+        }, 
+        {
+            "name": "text",
+            "control": "InputBox",
+            "style": {
+                "color": "blue",
+                "background-color": "#abc123",
+                "width": "fill-parent",
+                "height": "fill-parent"
+            }
+        }, 
+        {
+            "name": "buttonOk",
+            "control": "TextView",
+            "label": "OK",
+            "style": {
+                "background-color": "blue"
+            }
+        }
+	]
+}
